@@ -31,6 +31,12 @@ button{
     border-color: #9b9b9b;
     font-size: 20px;
     border-radius: 15px;
+    transition: 1s;
+}
+button:hover{
+    background-color: #cbcbcb;
+    color: #9341ff;
+    transition: 1s;
 }
 #usersList {
     height: 90vh;
