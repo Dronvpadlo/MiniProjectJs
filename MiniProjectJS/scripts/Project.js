@@ -111,6 +111,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
     .then((response) => response.json())
     .then((post) => {
         let postInfo = document.createElement('div');
+        postInfo.classList.add('postInfo')
         postInfo.innerText = `ID: ${post.id}
         Title: ${post.title}
         Body: ${post.body}
